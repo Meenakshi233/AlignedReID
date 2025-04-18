@@ -2,7 +2,8 @@ import cv2
 import os
 import numpy as np
 
-data_root = "/home/csc302/workspace/luohao/code/AlignedReID/data/market1501/query"
+# data_root = "/home/csc302/workspace/luohao/code/AlignedReID/data/market1501/query"
+data_root = "/kaggle/working/data/market1501/query"
 gen_root = "/home/csc302/workspace/luohao/code/AlignedReID/data/market1501_partial/query"
 
 def random_crop(img, sample_rate=0.6):
